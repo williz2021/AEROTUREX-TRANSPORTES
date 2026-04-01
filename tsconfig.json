@@ -1,0 +1,19 @@
+{
+	"extends": "astro/tsconfigs/strict",
+	"include": [".astro/types.d.ts", "**/*", "env.d.ts"],
+	"exclude": ["dist"],
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "esnext",
+		"moduleResolution": "bundler",
+		"jsx": "preserve",
+		"strict": true,
+		"jsxImportSource": "react",
+		"verbatimModuleSyntax": true,
+		"types": ["astro/client"],
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	}
+}
