@@ -1,0 +1,38 @@
+{
+	"name": "web-aeroturex-especiales",
+	"type": "module",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"@astrojs/react": "4.3.0",
+		"@astrojs/sitemap": "3.4.2",
+		"@astrojs/vercel": "8.2.5",
+		"@heroui/image": "2.2.15",
+		"@heroui/link": "2.2.21",
+		"@heroui/navbar": "2.2.22",
+		"@heroui/system": "2.4.20",
+		"@heroui/theme": "2.4.20",
+		"@tailwindcss/vite": "4.1.11",
+		"@types/react": "19.1.9",
+		"@types/react-dom": "19.1.7",
+		"astro": "5.12.8",
+		"framer-motion": "12.23.12",
+		"lucide-react": "0.536.0",
+		"react": "19.1.1",
+		"react-dom": "19.1.1",
+		"swiper": "11.0.6",
+		"tailwindcss": "4.1.11"
+	},
+	"devDependencies": {
+		"@tailwindcss/typography": "0.5.16",
+		"prettier": "3.6.2",
+		"prettier-plugin-astro": "0.14.1",
+		"prettier-plugin-tailwindcss": "0.6.14"
+	}
+}
